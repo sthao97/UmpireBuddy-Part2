@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/Decrement"
+        android:id="@+id/decrement"
+        app:showAsAction="ifRoom">
+
+        <menu>
+
+            <item android:title="@string/strikeDec"
+                android:id="@+id/decrement_strike_count"/>
+
+            <item android:title="@string/ballDec"
+                android:id="@id/decrement_ball_count"/>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/increment"
+        android:title="@string/Increment"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/increment_strike_count"
+                android:title="@string/strikeInc" />
+
+            <item
+                android:id="@id/increment_ball_count"
+                android:title="@string/ballInc" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

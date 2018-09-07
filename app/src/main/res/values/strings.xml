@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Umpire Buddy</string>
+
+    <string name="strikeView">Strike:   </string>
+    <string name="ballView">Ball:   </string>
+    <string name="strikeButton">Strike</string>
+    <string name="ballButton">Ball</string>
+    <string name="outView">Total Outs:   </string>
+
+    <string name="About">About</string>
+    <string name="Reset">Reset</string>
+    <string name="Settings">Settings</string>
+    <string name="aboutInfo">Umpire Buddy by: Steve Thao</string>
+
+    <string name="Increment">Increment</string>
+    <string name="strikeInc">Increment Strike Count</string>
+    <string name="ballInc">Increment Ball Count</string>
+    <string name="Decrement">Decrement</string>
+    <string name="strikeDec">Decrement Strike Count</string>
+    <string name="ballDec">Decrement Ball Count</string>
+</resources>
